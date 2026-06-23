@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DataHub_NG_Medium")(type "KiCad")(uri "${KIPRJMOD}/DataHub_NG_Medium.pretty")(options "")(descr ""))
+  (lib (name "DataHub_Footprints")(type "KiCad")(uri "${KIPRJMOD}/DataHub_Footprints.pretty")(options "")(descr ""))
+)
