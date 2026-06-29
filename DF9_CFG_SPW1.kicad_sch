@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "84370ef5-1f42-4baa-bf8b-b5ee172aab9e")
+	(uuid "b347d0bc-8216-4fa8-8fb4-b1869e614a02")
 	(paper "A4")
 	(lib_symbols
 		(symbol "DF9_connector_41:DF9-41P-1V32"

@@ -497,7 +497,7 @@
         "microvia_drill": 0.1,
         "name": "All Nets",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -512,7 +512,7 @@
         "microvia_drill": 0.1,
         "name": "CLK",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -526,7 +526,7 @@
         "microvia_drill": 0.1,
         "name": "FPGA_ESCAPE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.48,
@@ -540,7 +540,7 @@
         "microvia_drill": 0.1,
         "name": "FPGA_ESCAPE_MIN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.11,
         "via_diameter": 0.25,
@@ -552,9 +552,23 @@
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "PWR_PLANE",
+        "name": "PWR_ESCAPE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.55,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR_PLANE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -568,7 +582,7 @@
         "microvia_drill": 0.1,
         "name": "PWR_SMALL",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
@@ -582,7 +596,7 @@
         "microvia_drill": 0.1,
         "name": "SIG_DEFAULT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.48,
@@ -596,7 +610,7 @@
         "microvia_drill": 0.1,
         "name": "SIG_MIN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "via_diameter": 0.45,
@@ -610,7 +624,7 @@
         "microvia_drill": 0.1,
         "name": "SPW_DIFF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
         "via_diameter": 0.45,
@@ -728,11 +742,11 @@
         "pattern": "*VDDSEN*"
       },
       {
-        "netclass": "PWR_PLANE",
+        "netclass": "PWR_SMALL",
         "pattern": "*VDD*"
       },
       {
-        "netclass": "PWR_PLANE",
+        "netclass": "PWR_SMALL",
         "pattern": "*GND*"
       }
     ]
@@ -815,12 +829,42 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFG-P/N",
+          "name": "MFG-P/N",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG",
+          "name": "MFG",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "C*",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
