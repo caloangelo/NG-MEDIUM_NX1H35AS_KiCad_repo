@@ -14280,12 +14280,16 @@
 		(uuid "fa1949af-e6c8-442f-a09e-21879d40a6e6")
 	)
 	(no_connect
-		(at 128.27 106.68)
-		(uuid "02985b52-c1b1-40c4-9088-9bc852780409")
+		(at 52.07 101.6)
+		(uuid "0282757b-6a5b-4593-8ab0-aa6c7373839b")
 	)
 	(no_connect
 		(at 240.03 83.82)
 		(uuid "08559199-23f6-43f3-8947-3b2239d322ea")
+	)
+	(no_connect
+		(at 52.07 99.06)
+		(uuid "14da1067-da1c-4ea6-bdaa-b660ba056992")
 	)
 	(no_connect
 		(at 194.31 116.84)
@@ -14296,20 +14300,16 @@
 		(uuid "2b81deb9-212b-499b-9e61-e1510582c111")
 	)
 	(no_connect
-		(at 128.27 86.36)
-		(uuid "46bafd09-e4d1-4b13-accd-f6b50885c359")
-	)
-	(no_connect
 		(at 128.27 53.34)
 		(uuid "5fbfe310-5bca-443b-985b-158e6159582b")
 	)
 	(no_connect
-		(at 128.27 109.22)
-		(uuid "66632d53-8766-4ed8-8209-af54273b1e84")
-	)
-	(no_connect
 		(at 52.07 55.88)
 		(uuid "850c081e-76ab-45d7-83e7-cc3422f6f913")
+	)
+	(no_connect
+		(at 128.27 96.52)
+		(uuid "8b987d85-7f9d-47c2-af04-6acbab824fa7")
 	)
 	(no_connect
 		(at 128.27 55.88)
@@ -14328,8 +14328,8 @@
 		(uuid "e0610d15-c07f-42eb-9d1d-93975e3a95c0")
 	)
 	(no_connect
-		(at 128.27 88.9)
-		(uuid "e9349de1-3d53-4097-a81c-f8c4f18f2007")
+		(at 52.07 96.52)
+		(uuid "e2406d97-2172-4016-b80d-42b4cc82374a")
 	)
 	(no_connect
 		(at 240.03 76.2)
@@ -14387,7 +14387,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 128.27 93.98)
+			(xy 30.48 73.66) (xy 52.07 73.66)
 		)
 		(stroke
 			(width 0)
@@ -14467,7 +14467,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 93.98) (xy 52.07 93.98)
+			(xy 149.86 109.22) (xy 128.27 109.22)
 		)
 		(stroke
 			(width 0)
@@ -14547,7 +14547,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 124.46) (xy 52.07 124.46)
+			(xy 30.48 106.68) (xy 52.07 106.68)
 		)
 		(stroke
 			(width 0)
@@ -14577,7 +14577,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 128.27 78.74)
+			(xy 149.86 68.58) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -14617,7 +14617,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 127) (xy 52.07 127)
+			(xy 30.48 121.92) (xy 52.07 121.92)
 		)
 		(stroke
 			(width 0)
@@ -14667,7 +14667,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 109.22) (xy 52.07 109.22)
+			(xy 149.86 121.92) (xy 128.27 121.92)
 		)
 		(stroke
 			(width 0)
@@ -14677,7 +14677,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 96.52) (xy 52.07 96.52)
+			(xy 149.86 76.2) (xy 128.27 76.2)
 		)
 		(stroke
 			(width 0)
@@ -14687,7 +14687,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 129.54) (xy 52.07 129.54)
+			(xy 30.48 132.08) (xy 52.07 132.08)
 		)
 		(stroke
 			(width 0)
@@ -14807,7 +14807,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 127) (xy 128.27 127)
+			(xy 30.48 86.36) (xy 52.07 86.36)
 		)
 		(stroke
 			(width 0)
@@ -14837,7 +14837,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 71.12) (xy 128.27 71.12)
+			(xy 149.86 63.5) (xy 128.27 63.5)
 		)
 		(stroke
 			(width 0)
@@ -14887,7 +14887,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 91.44) (xy 128.27 91.44)
+			(xy 30.48 68.58) (xy 52.07 68.58)
 		)
 		(stroke
 			(width 0)
@@ -14947,7 +14947,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 63.5) (xy 128.27 63.5)
+			(xy 149.86 116.84) (xy 128.27 116.84)
 		)
 		(stroke
 			(width 0)
@@ -14957,7 +14957,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 71.12) (xy 52.07 71.12)
+			(xy 30.48 104.14) (xy 52.07 104.14)
 		)
 		(stroke
 			(width 0)
@@ -15107,7 +15107,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 96.52) (xy 128.27 96.52)
+			(xy 30.48 60.96) (xy 52.07 60.96)
 		)
 		(stroke
 			(width 0)
@@ -15117,7 +15117,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 104.14) (xy 52.07 104.14)
+			(xy 149.86 134.62) (xy 128.27 134.62)
 		)
 		(stroke
 			(width 0)
@@ -15267,7 +15267,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 124.46) (xy 128.27 124.46)
+			(xy 149.86 66.04) (xy 128.27 66.04)
 		)
 		(stroke
 			(width 0)
@@ -15307,7 +15307,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 114.3) (xy 128.27 114.3)
+			(xy 30.48 109.22) (xy 52.07 109.22)
 		)
 		(stroke
 			(width 0)
@@ -15337,7 +15337,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 129.54) (xy 128.27 129.54)
+			(xy 30.48 88.9) (xy 52.07 88.9)
 		)
 		(stroke
 			(width 0)
@@ -15357,7 +15357,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 128.27 81.28)
+			(xy 149.86 101.6) (xy 128.27 101.6)
 		)
 		(stroke
 			(width 0)
@@ -15367,7 +15367,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 78.74) (xy 52.07 78.74)
+			(xy 149.86 91.44) (xy 128.27 91.44)
 		)
 		(stroke
 			(width 0)
@@ -15377,7 +15377,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 101.6) (xy 149.86 101.6)
+			(xy 128.27 83.82) (xy 149.86 83.82)
 		)
 		(stroke
 			(width 0)
@@ -15387,7 +15387,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 99.06) (xy 128.27 99.06)
+			(xy 149.86 129.54) (xy 128.27 129.54)
 		)
 		(stroke
 			(width 0)
@@ -15427,7 +15427,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 101.6) (xy 52.07 101.6)
+			(xy 149.86 111.76) (xy 128.27 111.76)
 		)
 		(stroke
 			(width 0)
@@ -15507,7 +15507,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 76.2) (xy 52.07 76.2)
+			(xy 149.86 86.36) (xy 128.27 86.36)
 		)
 		(stroke
 			(width 0)
@@ -15517,7 +15517,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 81.28) (xy 52.07 81.28)
+			(xy 30.48 119.38) (xy 52.07 119.38)
 		)
 		(stroke
 			(width 0)
@@ -15547,7 +15547,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 111.76) (xy 52.07 111.76)
+			(xy 30.48 124.46) (xy 52.07 124.46)
 		)
 		(stroke
 			(width 0)
@@ -15557,7 +15557,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 121.92) (xy 52.07 121.92)
+			(xy 30.48 111.76) (xy 52.07 111.76)
 		)
 		(stroke
 			(width 0)
@@ -15647,7 +15647,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 119.38) (xy 52.07 119.38)
+			(xy 30.48 114.3) (xy 52.07 114.3)
 		)
 		(stroke
 			(width 0)
@@ -15667,7 +15667,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 88.9) (xy 52.07 88.9)
+			(xy 30.48 78.74) (xy 52.07 78.74)
 		)
 		(stroke
 			(width 0)
@@ -15697,7 +15697,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 116.84) (xy 128.27 116.84)
+			(xy 30.48 71.12) (xy 52.07 71.12)
 		)
 		(stroke
 			(width 0)
@@ -15837,7 +15837,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 66.04) (xy 52.07 66.04)
+			(xy 30.48 129.54) (xy 52.07 129.54)
 		)
 		(stroke
 			(width 0)
@@ -15867,7 +15867,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 83.82) (xy 128.27 83.82)
+			(xy 149.86 99.06) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -15927,7 +15927,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 60.96) (xy 128.27 60.96)
+			(xy 149.86 114.3) (xy 128.27 114.3)
 		)
 		(stroke
 			(width 0)
@@ -15937,7 +15937,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 121.92) (xy 128.27 121.92)
+			(xy 149.86 71.12) (xy 128.27 71.12)
 		)
 		(stroke
 			(width 0)
@@ -15947,7 +15947,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 86.36) (xy 52.07 86.36)
+			(xy 30.48 127) (xy 52.07 127)
 		)
 		(stroke
 			(width 0)
@@ -15967,7 +15967,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 91.44) (xy 52.07 91.44)
+			(xy 149.86 88.9) (xy 128.27 88.9)
 		)
 		(stroke
 			(width 0)
@@ -15987,7 +15987,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 60.96) (xy 52.07 60.96)
+			(xy 149.86 78.74) (xy 128.27 78.74)
 		)
 		(stroke
 			(width 0)
@@ -15997,7 +15997,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 99.06) (xy 52.07 99.06)
+			(xy 149.86 124.46) (xy 128.27 124.46)
 		)
 		(stroke
 			(width 0)
@@ -16027,7 +16027,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 106.68) (xy 52.07 106.68)
+			(xy 30.48 93.98) (xy 52.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -16037,7 +16037,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 134.62) (xy 52.07 134.62)
+			(xy 149.86 132.08) (xy 128.27 132.08)
 		)
 		(stroke
 			(width 0)
@@ -16057,7 +16057,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 111.76) (xy 128.27 111.76)
+			(xy 30.48 83.82) (xy 52.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -16087,7 +16087,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 66.04) (xy 128.27 66.04)
+			(xy 149.86 127) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -16097,7 +16097,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 83.82) (xy 52.07 83.82)
+			(xy 30.48 134.62) (xy 52.07 134.62)
 		)
 		(stroke
 			(width 0)
@@ -16127,7 +16127,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 76.2) (xy 128.27 76.2)
+			(xy 149.86 73.66) (xy 128.27 73.66)
 		)
 		(stroke
 			(width 0)
@@ -16137,7 +16137,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 114.3) (xy 52.07 114.3)
+			(xy 30.48 76.2) (xy 52.07 76.2)
 		)
 		(stroke
 			(width 0)
@@ -16167,7 +16167,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 68.58) (xy 128.27 68.58)
+			(xy 149.86 119.38) (xy 128.27 119.38)
 		)
 		(stroke
 			(width 0)
@@ -16177,7 +16177,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 73.66) (xy 52.07 73.66)
+			(xy 30.48 63.5) (xy 52.07 63.5)
 		)
 		(stroke
 			(width 0)
@@ -16277,7 +16277,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 73.66) (xy 128.27 73.66)
+			(xy 149.86 60.96) (xy 128.27 60.96)
 		)
 		(stroke
 			(width 0)
@@ -16287,7 +16287,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 132.08) (xy 52.07 132.08)
+			(xy 30.48 91.44) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -16317,7 +16317,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 134.62) (xy 128.27 134.62)
+			(xy 149.86 106.68) (xy 128.27 106.68)
 		)
 		(stroke
 			(width 0)
@@ -16357,7 +16357,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 63.5) (xy 52.07 63.5)
+			(xy 149.86 81.28) (xy 128.27 81.28)
 		)
 		(stroke
 			(width 0)
@@ -16397,7 +16397,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 68.58) (xy 52.07 68.58)
+			(xy 30.48 81.28) (xy 52.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -16407,7 +16407,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 119.38) (xy 128.27 119.38)
+			(xy 30.48 66.04) (xy 52.07 66.04)
 		)
 		(stroke
 			(width 0)
@@ -16487,7 +16487,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 132.08) (xy 128.27 132.08)
+			(xy 149.86 93.98) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
@@ -16496,7 +16496,7 @@
 		(uuid "ff8cb9f3-cb92-4bd4-9db5-12765a4fd37f")
 	)
 	(label "SDRAM_DQ9"
-		(at 30.48 66.04 0)
+		(at 30.48 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16516,7 +16516,7 @@
 		(uuid "060379c9-4512-4a2e-a2e8-882f3eafdd5f")
 	)
 	(label "SDRAM_A11"
-		(at 30.48 71.12 0)
+		(at 30.48 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16536,7 +16536,7 @@
 		(uuid "087f1cc8-0ff4-4f93-9486-5082d2217d4b")
 	)
 	(label "SDRAM_DQ12"
-		(at 30.48 83.82 0)
+		(at 30.48 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16546,7 +16546,7 @@
 		(uuid "0c84fd34-0c68-45d3-b59e-d650da1edfc0")
 	)
 	(label "SDRAM_DQ29"
-		(at 149.86 101.6 180)
+		(at 149.86 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16586,7 +16586,7 @@
 		(uuid "173bc86f-bf13-4c94-96d2-1fd43fd4c77e")
 	)
 	(label "SDRAM_DQ5"
-		(at 30.48 114.3 0)
+		(at 30.48 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16616,7 +16616,7 @@
 		(uuid "1a59fec6-1a7e-4799-88b7-781ed9e5623b")
 	)
 	(label "SDRAM_DQ15"
-		(at 30.48 127 0)
+		(at 30.48 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16626,7 +16626,7 @@
 		(uuid "1ca73fda-16c5-429a-a40c-743965e7dead")
 	)
 	(label "SDRAM_DQ8"
-		(at 30.48 68.58 0)
+		(at 30.48 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16656,22 +16656,22 @@
 		(uuid "24c7ad54-7922-44aa-bb20-7f8e9dcb8a84")
 	)
 	(label "SDRAM_A4"
-		(at 30.48 96.52 0)
+		(at 149.86 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "268092db-8e73-477e-b7fe-0a90e84bd878")
 	)
 	(label "SDRAM_CS_N"
-		(at 30.48 104.14 0)
+		(at 149.86 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "28725acf-3809-45a8-8642-48c67eb4552a")
 	)
@@ -16686,12 +16686,12 @@
 		(uuid "29cdac33-bd1a-40a4-9f91-bc6c50d25634")
 	)
 	(label "SDRAM_CAS_N"
-		(at 149.86 91.44 180)
+		(at 30.48 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "2c9775f4-2403-48da-be49-da5572758108")
 	)
@@ -16726,7 +16726,7 @@
 		(uuid "2f6c6566-211b-40b9-875f-72ed584e06a0")
 	)
 	(label "SDRAM_DQ11"
-		(at 30.48 86.36 0)
+		(at 30.48 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16746,7 +16746,7 @@
 		(uuid "3298be07-4476-441d-b4a3-b4313076727c")
 	)
 	(label "SDRAM_A8"
-		(at 149.86 68.58 180)
+		(at 149.86 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16766,17 +16766,17 @@
 		(uuid "37c9eab8-0d31-4563-a684-a6e43d0602d2")
 	)
 	(label "SDRAM_DQ16"
-		(at 30.48 91.44 0)
+		(at 149.86 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3910636a-40b2-42ac-848e-448bb084a8dc")
 	)
 	(label "SDRAM_A6"
-		(at 149.86 63.5 180)
+		(at 149.86 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16796,22 +16796,22 @@
 		(uuid "3aceae9d-1db8-46ea-b232-f54403388a25")
 	)
 	(label "SDRAM_RAS_N"
-		(at 149.86 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ce9f47a-8b74-4e9b-a9cf-8ede1959a4b4")
-	)
-	(label "SDRAM_A3"
-		(at 30.48 99.06 0)
+		(at 30.48 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "3ce9f47a-8b74-4e9b-a9cf-8ede1959a4b4")
+	)
+	(label "SDRAM_A3"
+		(at 149.86 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "3effd774-2e8c-4fdb-8277-da79c4001d7b")
 	)
@@ -16826,7 +16826,7 @@
 		(uuid "43116f90-d386-40df-b0a8-311d64e6cb38")
 	)
 	(label "SDRAM_BA1"
-		(at 30.48 132.08 0)
+		(at 30.48 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16846,7 +16846,7 @@
 		(uuid "4654f39c-b447-4b5e-bc8d-fe93b7b9a9d9")
 	)
 	(label "SDRAM_DQ13"
-		(at 30.48 81.28 0)
+		(at 30.48 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16856,7 +16856,7 @@
 		(uuid "4852b77a-b027-486d-8d14-edcf49c810d3")
 	)
 	(label "SDRAM_A7"
-		(at 149.86 66.04 180)
+		(at 149.86 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16876,12 +16876,12 @@
 		(uuid "4d8c67c6-7734-4c67-b894-7cbb84697347")
 	)
 	(label "SDRAM_A10"
-		(at 30.48 134.62 0)
+		(at 149.86 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4daf88f8-2ad4-4bdf-add1-7333d447d9c4")
 	)
@@ -16906,7 +16906,7 @@
 		(uuid "4f9bae3c-f7ef-4f77-8064-020c7e643564")
 	)
 	(label "SDRAM_DQ18"
-		(at 149.86 132.08 180)
+		(at 149.86 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16916,17 +16916,17 @@
 		(uuid "537fbced-a5ba-44f3-860d-10e9a6d60b5a")
 	)
 	(label "SDRAM_DQ17"
-		(at 30.48 93.98 0)
+		(at 149.86 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "57101ce1-863f-47f7-a714-d0dab7af75e3")
 	)
 	(label "SDRAM_DQ24"
-		(at 149.86 83.82 180)
+		(at 149.86 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16946,7 +16946,7 @@
 		(uuid "5ac69553-47a1-4f3c-b315-bfc2cc9529f1")
 	)
 	(label "SDRAM_DQ10"
-		(at 30.48 88.9 0)
+		(at 30.48 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17016,22 +17016,22 @@
 		(uuid "627334df-049e-4076-aaa0-ef397394b6e8")
 	)
 	(label "SDRAM_DQ7"
-		(at 149.86 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "62d7baad-dea8-4a51-a156-76cec0c2a10e")
-	)
-	(label "SDRAM_A1"
-		(at 30.48 109.22 0)
+		(at 30.48 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
+		)
+		(uuid "62d7baad-dea8-4a51-a156-76cec0c2a10e")
+	)
+	(label "SDRAM_A1"
+		(at 149.86 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "65479f8f-51a1-4aa6-8ece-facf7b8dec6b")
 	)
@@ -17066,7 +17066,7 @@
 		(uuid "7397c9d2-19a7-4361-993b-a1e211aa0776")
 	)
 	(label "SDRAM_A0"
-		(at 30.48 106.68 0)
+		(at 30.48 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17096,7 +17096,7 @@
 		(uuid "78d4e619-ab87-4fbc-ac4b-713d1283b8fe")
 	)
 	(label "SDRAM_DQ27"
-		(at 149.86 76.2 180)
+		(at 149.86 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17116,7 +17116,7 @@
 		(uuid "7f97ba95-94e3-4527-8561-90bac8dfa33f")
 	)
 	(label "SDRAM_DQ21"
-		(at 149.86 124.46 180)
+		(at 149.86 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17136,17 +17136,17 @@
 		(uuid "90fb7183-02f2-4fc9-b322-6d0979ac5a71")
 	)
 	(label "SDRAM_CLK"
-		(at 149.86 114.3 180)
+		(at 30.48 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "96e16260-c56e-48fc-9414-9f9ad889a545")
 	)
 	(label "SDRAM_DQ4"
-		(at 30.48 111.76 0)
+		(at 30.48 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17156,12 +17156,12 @@
 		(uuid "9b495939-c28a-4cff-b862-407867846f1c")
 	)
 	(label "SDRAM_DQ31"
-		(at 30.48 60.96 0)
+		(at 149.86 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9b8a878c-d893-4fd3-a971-13e9cafc6e7b")
 	)
@@ -17186,7 +17186,7 @@
 		(uuid "9d97e93e-180c-489f-acd0-bc6bfc3b41f0")
 	)
 	(label "SDRAM_DQ14"
-		(at 30.48 129.54 0)
+		(at 30.48 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17196,12 +17196,12 @@
 		(uuid "a6e9d37a-3e59-43e3-b854-6d867b3a6ec2")
 	)
 	(label "SDRAM_DQM0"
-		(at 149.86 116.84 180)
+		(at 30.48 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "afa1377f-b295-4759-ac97-ed6fa4ea3296")
 	)
@@ -17216,7 +17216,7 @@
 		(uuid "b1337ae1-2d9a-46a6-a192-82340d327c6f")
 	)
 	(label "SDRAM_DQ20"
-		(at 149.86 121.92 180)
+		(at 149.86 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17236,7 +17236,7 @@
 		(uuid "b35c8bb1-7c8c-4555-b5aa-f5a1797f9c06")
 	)
 	(label "SDRAM_DQ23"
-		(at 149.86 73.66 180)
+		(at 149.86 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17256,22 +17256,22 @@
 		(uuid "b4b9dd3c-5bf7-49ec-b8f8-6b8b8d6b8c86")
 	)
 	(label "SDRAM_A2"
-		(at 30.48 76.2 0)
+		(at 149.86 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b5cfd3f6-297f-41fd-823b-e1351b42815e")
 	)
 	(label "SDRAM_DQM3"
-		(at 30.48 101.6 0)
+		(at 149.86 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "b8f76ed3-5da6-4967-a53e-5640fb3287c7")
 	)
@@ -17286,17 +17286,17 @@
 		(uuid "bb1dc5cc-3a4e-4f76-9968-4c2b623ba555")
 	)
 	(label "SDRAM_WE_N"
-		(at 149.86 119.38 180)
+		(at 30.48 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "bd2c60b5-4e21-42c8-934e-116a702edea6")
 	)
 	(label "SDRAM_DQ0"
-		(at 30.48 121.92 0)
+		(at 30.48 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17316,22 +17316,22 @@
 		(uuid "c0c0e39e-a2bd-48b4-9b1a-a6a6a64f73d9")
 	)
 	(label "SDRAM_CKE"
-		(at 149.86 96.52 180)
+		(at 30.48 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c0c6991a-afb8-4df0-bbab-e963eba081e3")
 	)
 	(label "SDRAM_DQ6"
-		(at 149.86 127 180)
+		(at 30.48 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "c3cd54c1-12e1-4aab-9ea8-cb2514b0d603")
 	)
@@ -17346,7 +17346,7 @@
 		(uuid "c7ec4b1f-72e2-47d6-b31a-25a912107b37")
 	)
 	(label "SDRAM_DQ19"
-		(at 149.86 134.62 180)
+		(at 149.86 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17366,7 +17366,7 @@
 		(uuid "cbc9ecd5-b32b-43e9-8bed-6c571aa3e464")
 	)
 	(label "SDRAM_A9"
-		(at 149.86 99.06 180)
+		(at 149.86 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17396,17 +17396,17 @@
 		(uuid "d13efadd-4179-419d-8c5b-e6493a38a9c6")
 	)
 	(label "SDRAM_DQM1"
-		(at 149.86 111.76 180)
+		(at 30.48 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "d2056c2a-b6f5-48c6-9a88-c658e2deb3a1")
 	)
 	(label "SDRAM_DQ1"
-		(at 30.48 124.46 0)
+		(at 30.48 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17436,7 +17436,7 @@
 		(uuid "d62bc7e1-ba53-4b1a-82ae-2625f3d0c400")
 	)
 	(label "SDRAM_DQ22"
-		(at 149.86 71.12 180)
+		(at 149.86 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17456,12 +17456,12 @@
 		(uuid "d8fad0e6-d4e9-40b8-af59-32efada3612c")
 	)
 	(label "SDRAM_DQ30"
-		(at 30.48 63.5 0)
+		(at 149.86 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d90ac728-8e4f-4d57-b869-97b4c70babe8")
 	)
@@ -17496,12 +17496,12 @@
 		(uuid "e054bdbd-68c7-4256-98ec-55deae44ce6e")
 	)
 	(label "SDRAM_DQM2"
-		(at 30.48 78.74 0)
+		(at 149.86 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e5cbf3bb-635b-4869-963c-b6da1577c635")
 	)
@@ -17516,7 +17516,7 @@
 		(uuid "e64b6c7c-a9b4-4f81-b440-865864638f42")
 	)
 	(label "SDRAM_DQ25"
-		(at 149.86 81.28 180)
+		(at 149.86 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17526,7 +17526,7 @@
 		(uuid "e6772962-18da-4094-ad91-8365828090a3")
 	)
 	(label "SDRAM_A5"
-		(at 149.86 60.96 180)
+		(at 149.86 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17536,7 +17536,7 @@
 		(uuid "e806a486-53f2-4cfd-a9fa-fe6afbb3c4f0")
 	)
 	(label "SDRAM_DQ26"
-		(at 149.86 78.74 180)
+		(at 149.86 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17566,7 +17566,7 @@
 		(uuid "f178bea2-e2d3-4036-b3fe-9855f26219f7")
 	)
 	(label "SDRAM_BA0"
-		(at 30.48 73.66 0)
+		(at 30.48 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17586,7 +17586,7 @@
 		(uuid "f5f7cfb6-2a81-41ea-8442-c40ec77d9008")
 	)
 	(label "SDRAM_DQ3"
-		(at 30.48 119.38 0)
+		(at 30.48 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)

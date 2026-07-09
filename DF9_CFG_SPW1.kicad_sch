@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "b347d0bc-8216-4fa8-8fb4-b1869e614a02")
+	(uuid "299af97f-55fc-4f97-b47c-09349effa0d5")
 	(paper "A4")
 	(lib_symbols
 		(symbol "DF9_connector_41:DF9-41P-1V32"
@@ -6538,16 +6538,6 @@
 		)
 		(uuid "ff651191-e04b-4924-a213-62a4a42aa645")
 	)
-	(label "RST_N"
-		(at 88.9 92.71 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4689fc5c-8870-41c7-be9d-a3708b0d488c")
-	)
 	(label "CFG_VREF"
 		(at 64.77 82.55 180)
 		(effects
@@ -6567,6 +6557,28 @@
 			(justify right bottom)
 		)
 		(uuid "8f0cb51d-b6ee-416d-9bf3-6c4b87265e3e")
+	)
+	(global_label "RST_N"
+		(shape input)
+		(at 88.9 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3224e2dc-b65b-473a-a2d6-68a1f2c284a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.6304 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "JTMS"
 		(shape input)
@@ -7359,7 +7371,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 60.96 60.96 0)
 			(effects
 				(font
@@ -7428,7 +7440,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 60.96 68.58 0)
 			(effects
 				(font
@@ -7686,7 +7698,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 106.68 34.29 0)
 			(effects
 				(font
@@ -7887,7 +7899,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -8022,7 +8034,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 53.34 34.29 0)
 			(effects
 				(font
