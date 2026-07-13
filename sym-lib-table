@@ -6,4 +6,5 @@
   (lib (name "OSC_LFSPXO025225_25MHz")(type "KiCad")(uri "${KIPRJMOD}/symbols/osc_LFSPXO025225.kicad_sym")(options "")(descr ""))
   (lib (name "DF9_connector_41")(type "KiCad")(uri "${KIPRJMOD}/symbols/DF9-41P-1V_32_.kicad_sym")(options "")(descr ""))
   (lib (name "DataHub_PWR_symbols")(type "KiCad")(uri "${KIPRJMOD}/symbols/DataHub_PWR_symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Pico_Connector_11")(type "KiCad")(uri "${KIPRJMOD}/symbols/Pico_Conn.kicad_sym")(options "")(descr ""))
 )

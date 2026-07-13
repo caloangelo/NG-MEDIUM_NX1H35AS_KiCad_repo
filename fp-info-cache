@@ -1,4 +1,4 @@
-27242176229790916
+27247526928980261
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60186,6 +60186,13 @@ CONN_581-M09-213L462_NRC
 9
 9
 DataHub_Footprints
+CONN_532610001-SD_11_MOL
+
+532611171 
+0
+13
+13
+DataHub_Footprints
 DF911P1V32
 
 DF9-11P-1V32 
@@ -60221,12 +60228,26 @@ Edge&Holes_DH+
 0
 0
 DataHub_Footprints
+MAX8556
+
+MAX8556ETE 
+0
+17
+17
+DataHub_Footprints
 MotherBoard_MountingHole
 
 
 0
 0
 0
+DataHub_Footprints
+NPN_LCC-3_STM
+
+SOC2222AHRG 
+0
+3
+3
 DataHub_Footprints
 PCBoard
 
