@@ -60883,7 +60883,7 @@
 	(footprint "DataHub_Footprints:sdram2_TSOP-54_11P96X22P35_ALL"
 		(layer "B.Cu")
 		(uuid "ee5b4499-ffa5-4933-a0df-86b3070865c9")
-		(at 91.8011 97.491241 -90)
+		(at 87.3011 101.316039 -90)
 		(tags "AS4C8M16SA-6TIN ")
 		(property "Reference" "U11"
 			(at 0 0 90)

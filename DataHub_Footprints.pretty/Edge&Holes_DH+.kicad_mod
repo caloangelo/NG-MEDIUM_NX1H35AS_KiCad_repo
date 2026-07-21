@@ -220,11 +220,11 @@
 		(uuid "d8783243-07a3-4b9d-9392-3fe0d38872a7")
 	)
 	(fp_circle
-		(center 26 25.5052)
-		(end 27.75 25.5052)
+		(center 26 26.0052)
+		(end 27.75 26.0052)
 		(stroke
 			(width 0.05)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
@@ -264,11 +264,11 @@
 		(uuid "18055aef-03eb-4c7d-8b7e-f00788d1b5f8")
 	)
 	(fp_rect
-		(start 23 22.5052)
-		(end 29 28.5052)
+		(start 23 23.0052)
+		(end 29 29.0052)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Margin")
@@ -308,11 +308,11 @@
 		(uuid "01cf8f3f-f34a-4305-b7f4-11c9dd2d969a")
 	)
 	(fp_circle
-		(center 26 25.5052)
-		(end 28 24.4052)
+		(center 26 26.0052)
+		(end 28.282542 26.0052)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(fill no)
 		(layer "Margin")

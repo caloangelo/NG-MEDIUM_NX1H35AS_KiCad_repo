@@ -1,4 +1,4 @@
-27247526928980261
+27251097372554207
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60214,6 +60214,13 @@ DF9-41P-1V32
 41
 41
 DataHub_Footprints
+DH+_final_Edge
+
+
+0
+0
+0
+DataHub_Footprints
 DataHub+_Edge
 
 
@@ -60276,6 +60283,13 @@ LFSPXO025225
 0
 4
 4
+DataHub_Footprints
+Untitled
+
+
+0
+0
+0
 DataHub_NG_Medium
 NX1H35S_CLGA625
 

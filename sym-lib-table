@@ -7,4 +7,7 @@
   (lib (name "DF9_connector_41")(type "KiCad")(uri "${KIPRJMOD}/symbols/DF9-41P-1V_32_.kicad_sym")(options "")(descr ""))
   (lib (name "DataHub_PWR_symbols")(type "KiCad")(uri "${KIPRJMOD}/symbols/DataHub_PWR_symbols.kicad_sym")(options "")(descr ""))
   (lib (name "Pico_Connector_11")(type "KiCad")(uri "${KIPRJMOD}/symbols/Pico_Conn.kicad_sym")(options "")(descr ""))
+  (lib (name "NPN_transistor")(type "KiCad")(uri "${KIPRJMOD}/symbols/NPN.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX_LDO")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX8556.kicad_sym")(options "")(descr ""))
+  (lib (name "SDRAM8x16")(type "KiCad")(uri "${KIPRJMOD}/symbols/sdram2.kicad_sym")(options "")(descr ""))
 )
