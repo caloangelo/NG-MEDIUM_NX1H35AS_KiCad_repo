@@ -12004,6 +12004,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "DataHub_PWR_symbols:VDDIO_11"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at -16.002 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDDIO_11"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDDIO_11\""
+				(at -2.032 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDDIO_11_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDDIO_11_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DataHub_PWR_symbols:VDDIO_12"
 			(power)
 			(pin_numbers
@@ -13508,12 +13633,6 @@
 		)
 	)
 	(junction
-		(at 25.4 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "056c3b44-37f5-47ea-a360-009198f0ba20")
-	)
-	(junction
 		(at 269.24 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13604,22 +13723,16 @@
 		(uuid "69ca9de0-5ce6-4fee-b055-da3fb1d6eb99")
 	)
 	(junction
-		(at 25.4 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a916a7b-3204-4cab-ad8e-215d0614752c")
-	)
-	(junction
 		(at 148.59 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6de8d988-fb36-47bf-a557-bfdf8aa6409a")
 	)
 	(junction
-		(at 25.4 43.18)
+		(at 25.4 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "767a898d-1068-4252-9f28-b9f802d8f408")
+		(uuid "7789ce0b-d836-47e3-9c89-375dca7b8f04")
 	)
 	(junction
 		(at 101.6 180.34)
@@ -13694,12 +13807,6 @@
 		(uuid "bef94560-e85c-421f-b1ca-74e0490648e1")
 	)
 	(junction
-		(at 25.4 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c29de755-9262-4402-9966-ec60a9e99c93")
-	)
-	(junction
 		(at 148.59 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13744,14 +13851,6 @@
 		(uuid "0e1af112-ad79-492c-a964-c091e0263143")
 	)
 	(no_connect
-		(at 30.48 119.38)
-		(uuid "0e9fac90-d7b5-49bb-af14-3d87b5afb665")
-	)
-	(no_connect
-		(at 30.48 111.76)
-		(uuid "0f854a50-ec34-48ad-8ffa-b15dc7432ae2")
-	)
-	(no_connect
 		(at 218.44 67.31)
 		(uuid "105e49a1-1fb3-4159-b303-38187b715f20")
 	)
@@ -13766,10 +13865,6 @@
 	(no_connect
 		(at 106.68 81.28)
 		(uuid "15a55720-c213-4979-855a-ad1ddbfc6f00")
-	)
-	(no_connect
-		(at 30.48 99.06)
-		(uuid "1c2e2cbc-7999-4321-85d0-4d99c124a918")
 	)
 	(no_connect
 		(at 218.44 31.75)
@@ -13792,14 +13887,6 @@
 		(uuid "255f4eda-6556-49e9-a256-0cc11db66de1")
 	)
 	(no_connect
-		(at 30.48 83.82)
-		(uuid "260830e6-a6b9-41c6-8fff-886a885b734e")
-	)
-	(no_connect
-		(at 30.48 73.66)
-		(uuid "265697d6-79d3-485c-a050-7e89067ca4a1")
-	)
-	(no_connect
 		(at 218.44 135.89)
 		(uuid "26b19d6d-93dc-45cc-be0a-b02a1c160310")
 	)
@@ -13818,10 +13905,6 @@
 	(no_connect
 		(at 106.68 111.76)
 		(uuid "30de9879-6b58-4d7e-a515-3f7597beee50")
-	)
-	(no_connect
-		(at 30.48 58.42)
-		(uuid "328852ff-3e43-4a30-9695-8802632d48be")
 	)
 	(no_connect
 		(at 218.44 118.11)
@@ -13844,10 +13927,6 @@
 		(uuid "3e1b3b03-b064-452c-ab7b-119e5dec4926")
 	)
 	(no_connect
-		(at 30.48 63.5)
-		(uuid "3ee32155-5cbc-4854-a42f-38efd7a89d29")
-	)
-	(no_connect
 		(at 106.68 86.36)
 		(uuid "400eebdf-c412-421a-815a-dc5052f83178")
 	)
@@ -13860,12 +13939,8 @@
 		(uuid "434dc37d-d9ba-4dd7-9e97-8b3465825706")
 	)
 	(no_connect
-		(at 30.48 55.88)
-		(uuid "4609eebc-15ac-465f-ad00-ac8b5d3e60e6")
-	)
-	(no_connect
-		(at 30.48 127)
-		(uuid "46cdcc3e-6711-4279-b3a8-955b417c0037")
+		(at 30.48 48.26)
+		(uuid "4650cbf7-e9e6-4349-96bd-3a42fd1356af")
 	)
 	(no_connect
 		(at 106.68 96.52)
@@ -13876,20 +13951,12 @@
 		(uuid "4956b6dc-24ab-4962-92b3-693da4badd55")
 	)
 	(no_connect
-		(at 30.48 81.28)
-		(uuid "4a5e7ae7-4a11-4314-b0a6-050a56256658")
-	)
-	(no_connect
 		(at 106.68 121.92)
 		(uuid "4c2e607a-b453-4dbc-b975-3ade9d9aedb0")
 	)
 	(no_connect
 		(at 167.64 85.09)
 		(uuid "4dfbd7c8-fc58-4bf0-842b-3571713f4941")
-	)
-	(no_connect
-		(at 30.48 78.74)
-		(uuid "59349888-e618-43b2-b2e8-45fe7538ff31")
 	)
 	(no_connect
 		(at 106.68 109.22)
@@ -13920,24 +13987,12 @@
 		(uuid "65c130bb-0881-422d-ba16-f5f1296a05b3")
 	)
 	(no_connect
-		(at 30.48 124.46)
-		(uuid "6b2d3a58-3baf-4a66-b44e-ed916727a1e2")
-	)
-	(no_connect
 		(at 106.68 116.84)
 		(uuid "74d7a5f7-9e4b-4cc3-8411-d01ca7ebec3b")
 	)
 	(no_connect
-		(at 30.48 71.12)
-		(uuid "7597cc38-6ab8-412f-9b00-105f441e0cb0")
-	)
-	(no_connect
 		(at 167.64 97.79)
 		(uuid "765ded10-6e50-4a9b-8d81-fae7e96a72ca")
-	)
-	(no_connect
-		(at 30.48 121.92)
-		(uuid "7665ba18-f618-4a64-85a6-56dca7660033")
 	)
 	(no_connect
 		(at 218.44 64.77)
@@ -13948,10 +14003,6 @@
 		(uuid "7952e9af-0c61-4450-96e3-b3967d64d4a8")
 	)
 	(no_connect
-		(at 30.48 60.96)
-		(uuid "7e360498-c065-40b4-bb20-c2f24fa95b2c")
-	)
-	(no_connect
 		(at 218.44 34.29)
 		(uuid "81af9342-a364-4d2f-9073-0fc18a440c36")
 	)
@@ -13960,20 +14011,16 @@
 		(uuid "82155e3b-84de-4e09-b8cc-ce9bf4e9a2bb")
 	)
 	(no_connect
-		(at 30.48 116.84)
-		(uuid "84cb0540-eeb3-4c9f-a1ee-0c001d3f8bbc")
-	)
-	(no_connect
 		(at 167.64 115.57)
 		(uuid "8a9c6175-59c7-4d85-b146-60ea2310978f")
 	)
 	(no_connect
-		(at 30.48 66.04)
-		(uuid "8e95189a-5472-4762-8343-7d48fd7f5091")
-	)
-	(no_connect
 		(at 106.68 106.68)
 		(uuid "9155bef6-686b-4825-ab01-7cc45b498207")
+	)
+	(no_connect
+		(at 30.48 50.8)
+		(uuid "96ff4312-6b73-4d5d-9826-8296c26824ea")
 	)
 	(no_connect
 		(at 106.68 124.46)
@@ -13992,28 +14039,12 @@
 		(uuid "9f4ed970-57ae-4025-8524-2c1ac9820342")
 	)
 	(no_connect
-		(at 30.48 106.68)
-		(uuid "a5da2187-e581-4820-a41d-e445716bef6b")
-	)
-	(no_connect
-		(at 30.48 68.58)
-		(uuid "a7c4b78f-6b8a-409e-8746-0c53186d5d22")
-	)
-	(no_connect
 		(at 167.64 100.33)
 		(uuid "a8c82c5a-6960-4a12-9718-40dbeab7b37e")
 	)
 	(no_connect
 		(at 218.44 95.25)
 		(uuid "a9c005da-3e35-4af7-a2a9-847f7bbd96f0")
-	)
-	(no_connect
-		(at 30.48 91.44)
-		(uuid "a9d2a3e4-a1be-4961-9096-4d14aea30b03")
-	)
-	(no_connect
-		(at 30.48 104.14)
-		(uuid "a9f003fc-2013-4d88-a1a6-da2adb2d7150")
 	)
 	(no_connect
 		(at 167.64 41.91)
@@ -14040,24 +14071,12 @@
 		(uuid "be34b464-327a-4509-94b5-c2d2030ff735")
 	)
 	(no_connect
-		(at 30.48 88.9)
-		(uuid "c2ec62bb-e6a3-40f4-9fea-343b05ffd069")
-	)
-	(no_connect
 		(at 218.44 128.27)
 		(uuid "c7039d9b-fbcb-4864-8891-7b471cb883cc")
 	)
 	(no_connect
 		(at 106.68 127)
 		(uuid "c75abffa-c5aa-46a6-845d-0a6e3808e593")
-	)
-	(no_connect
-		(at 30.48 109.22)
-		(uuid "ce2236ed-1399-487d-858a-10d4acf4fcf6")
-	)
-	(no_connect
-		(at 30.48 96.52)
-		(uuid "ceaf4753-8904-4785-bb4b-b00cf316df27")
 	)
 	(no_connect
 		(at 167.64 87.63)
@@ -14076,20 +14095,12 @@
 		(uuid "d4c37597-5279-47c5-87e2-ef0bb608bab3")
 	)
 	(no_connect
-		(at 30.48 86.36)
-		(uuid "d7858381-9d90-44ec-8ec8-b440f5b2cf64")
-	)
-	(no_connect
 		(at 167.64 44.45)
 		(uuid "d9d3e71b-b377-48ae-9652-6df689913844")
 	)
 	(no_connect
 		(at 167.64 102.87)
 		(uuid "da071ef5-cfea-49d5-8a50-00b10f3c66b8")
-	)
-	(no_connect
-		(at 30.48 76.2)
-		(uuid "db2a94d7-27cd-4af1-84bf-354f90e87b14")
 	)
 	(no_connect
 		(at 218.44 130.81)
@@ -14108,16 +14119,8 @@
 		(uuid "e898ce9c-422b-4a2a-9e65-c8cb935f66f4")
 	)
 	(no_connect
-		(at 30.48 114.3)
-		(uuid "eb227a77-9479-46d5-aece-5c7aa4b1c145")
-	)
-	(no_connect
 		(at 218.44 125.73)
 		(uuid "ec9648f7-a391-4360-b6a6-62ed38628706")
-	)
-	(no_connect
-		(at 30.48 129.54)
-		(uuid "f18a5e6d-2e0d-48f0-b6f9-62942c1762b0")
 	)
 	(no_connect
 		(at 218.44 100.33)
@@ -14134,14 +14137,6 @@
 	(no_connect
 		(at 106.68 50.8)
 		(uuid "fb771060-105f-47b8-9ab2-be165019e477")
-	)
-	(no_connect
-		(at 30.48 93.98)
-		(uuid "fce50ef2-def5-4ae8-996c-7e376079e8df")
-	)
-	(no_connect
-		(at 30.48 101.6)
-		(uuid "fe9aa131-035e-46ca-98b3-d1f2d6e7c32a")
 	)
 	(wire
 		(pts
@@ -14332,6 +14327,16 @@
 			(type default)
 		)
 		(uuid "22407ec9-5693-4acf-82b9-5d9bfccd9f80")
+	)
+	(wire
+		(pts
+			(xy 25.4 27.94) (xy 25.4 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23b62d70-5aa0-45bb-855a-45367d103b65")
 	)
 	(wire
 		(pts
@@ -14585,7 +14590,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 43.18) (xy 25.4 48.26)
+			(xy 25.4 43.18) (xy 25.4 50.8)
 		)
 		(stroke
 			(width 0)
@@ -14875,16 +14880,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 38.1) (xy 25.4 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "722d3614-e272-45e4-9ead-b6fe71c14a1e")
-	)
-	(wire
-		(pts
 			(xy 106.68 71.12) (xy 109.22 71.12)
 		)
 		(stroke
@@ -14972,16 +14967,6 @@
 			(type default)
 		)
 		(uuid "7dc2ca67-828b-47ca-902c-5795b1e63e6e")
-	)
-	(wire
-		(pts
-			(xy 30.48 48.26) (xy 25.4 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e6bfa62-ac14-4fa2-8089-3214f0a8f7e3")
 	)
 	(wire
 		(pts
@@ -15305,16 +15290,6 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 48.26) (xy 25.4 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bce20b96-3be0-4446-bb11-a6ed17573510")
-	)
-	(wire
-		(pts
 			(xy 149.86 166.37) (xy 149.86 167.64)
 		)
 		(stroke
@@ -15342,16 +15317,6 @@
 			(type default)
 		)
 		(uuid "c00581d3-75ed-4530-b327-ee548853ec85")
-	)
-	(wire
-		(pts
-			(xy 25.4 50.8) (xy 30.48 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c35a330b-299e-400b-a8a7-485e9ce701c0")
 	)
 	(wire
 		(pts
@@ -22760,6 +22725,72 @@
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DataHub_PWR_symbols:VDDIO_11")
+		(at 25.4 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df930e0d-4a5f-4969-af04-8a2b24ac35e6")
+		(property "Reference" "#PWR051"
+			(at 9.398 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDIO_11"
+			(at 25.4 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDIO_11\""
+			(at 23.368 18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20f979cf-f489-478d-b8e5-05161ac97644")
+		)
+		(instances
+			(project ""
+				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)

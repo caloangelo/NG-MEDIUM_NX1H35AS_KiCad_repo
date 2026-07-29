@@ -1,0 +1,61 @@
+(version 1)
+(version 1)
+
+(rule "U11 BGA signal fanout"
+    (condition "A.intersectsCourtyard('U11') && A.NetName != 'GND' && A.NetName != 'VDD3V3'")
+    (constraint track_width (min 0.09mm) (opt 0.15mm) (max 0.15mm))
+    (constraint clearance (min 0.010mm)))
+
+(rule "U11 BGA power fanout"
+    (condition "A.intersectsCourtyard('U11') && (A.NetName == 'GND' || A.NetName == 'VDD3V3')")
+    (constraint track_width (min 0.15mm) (opt 0.30mm) (max 0.30mm))
+    (constraint clearance (min 0.09mm)))
+
+(rule "U11 BGA signal vias"
+    (condition "A.Type == 'Via' && A.intersectsCourtyard('U11') && A.NetName != 'GND' && A.NetName != 'VDD3V3'")
+    (constraint via_diameter (min 0.45mm) (opt 0.45mm) (max 0.45mm))
+    (constraint hole_size (min 0.20mm) (opt 0.20mm) (max 0.20mm)))
+
+(rule "U11 BGA power vias"
+    (condition "A.Type == 'Via' && A.intersectsCourtyard('U11') && (A.NetName == 'GND' || A.NetName == 'VDD3V3')")
+    (constraint via_diameter (min 0.48mm) (opt 0.48mm) (max 0.48mm))
+    (constraint hole_size (min 0.25mm) (opt 0.25mm) (max 0.25mm)))
+
+(rule "SpaceWire differential geometry"
+    (condition "A.hasNetclass('SPW_DIFF')")
+    (constraint track_width (min 0.12mm) (opt 0.12mm) (max 0.12mm))
+    (constraint diff_pair_gap (min 0.19mm) (opt 0.20mm) (max 0.21mm))
+    (constraint diff_pair_uncoupled (max 11mm)))
+
+(rule "SpaceWire FPGA fanout gap exception"
+    (condition "A.hasNetclass('SPW_DIFF') && A.intersectsArea('SPW_FANOUT')")
+    (constraint diff_pair_gap (min 0.19mm) (opt 0.20mm) (max 0.85mm)))
+
+(rule "SpaceWire J3 fanout gap exception"
+    (condition "A.hasNetclass('SPW_DIFF') && A.intersectsArea('SPW_DF9')")
+    (constraint diff_pair_gap (max 1.20mm)))
+
+(rule "SpaceWire external clearance"
+    (condition "A.hasNetclass('SPW_DIFF') && !AB.isCoupledDiffPair()")
+    (constraint clearance (min 0.15mm)))
+
+(rule "SpaceWire signal via size"
+    (condition "A.Type == 'Via' && A.hasNetclass('SPW_DIFF')")
+    (constraint via_diameter (min 0.45mm) (max 0.45mm))
+    (constraint hole_size (min 0.20mm) (max 0.20mm)))
+
+(rule "SpaceWire maximum one transition"
+    (condition "A.hasNetclass('SPW_DIFF')")
+    (constraint via_count (max 1)))
+
+(rule "SpaceWire intra-pair skew"
+    (condition "A.hasNetclass('SPW_DIFF')")
+    (constraint skew (max 0.50mm) (within_diff_pairs)))
+
+(rule "SpaceWire RX Data-Strobe skew"
+    (condition "A.inDiffPair('*SPW1_DIN*') || A.inDiffPair('*SPW1_SIN*')")
+    (constraint skew (max 1.00mm)))
+
+(rule "SpaceWire TX Data-Strobe skew"
+    (condition "A.inDiffPair('*SPW1_DOUT*') || A.inDiffPair('*SPW1_SOUT*')")
+    (constraint skew (max 1.00mm)))

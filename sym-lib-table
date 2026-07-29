@@ -10,4 +10,5 @@
   (lib (name "NPN_transistor")(type "KiCad")(uri "${KIPRJMOD}/symbols/NPN.kicad_sym")(options "")(descr ""))
   (lib (name "MAX_LDO")(type "KiCad")(uri "${KIPRJMOD}/symbols/MAX8556.kicad_sym")(options "")(descr ""))
   (lib (name "SDRAM8x16")(type "KiCad")(uri "${KIPRJMOD}/symbols/sdram2.kicad_sym")(options "")(descr ""))
+  (lib (name "SDRAM_BGA_8x16")(type "KiCad")(uri "${KIPRJMOD}/symbols/sdram2_bga.kicad_sym")(options "")(descr ""))
 )
