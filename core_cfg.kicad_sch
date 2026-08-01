@@ -15298,7 +15298,7 @@
 		)
 		(uuid "bcda11fe-17f6-43ab-a2c8-946d626ad1e2")
 	)
-	(global_label "VDDSEN"
+	(global_label "CORE_VDDSEN"
 		(shape input)
 		(at 72.39 146.05 180)
 		(fields_autoplaced yes)
@@ -15310,7 +15310,7 @@
 		)
 		(uuid "3f62e5b6-6f44-4bce-9906-d54cf4d812af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.148 146.05 0)
+			(at 59.3583 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -738,12 +738,12 @@
         "pattern": "*/LD_*"
       },
       {
-        "netclass": "PWR_ESCAPE",
+        "netclass": "FPGA_ESCAPE",
         "pattern": "*VDDSEN*"
       },
       {
         "netclass": "PWR_ESCAPE",
-        "pattern": "*VDD*"
+        "pattern": "VDD*"
       },
       {
         "netclass": "PWR_ESCAPE",
@@ -919,7 +919,7 @@
     ],
     [
       "e4b4090a-9491-4976-8b45-759656425e5b",
-      "02_FPGA_Config_JTAG_Bitstream_Reset"
+      "02_FPGA_Banks11_12_CFG"
     ],
     [
       "2a507cdc-d739-4bae-96c6-edd8564de424",
@@ -930,24 +930,24 @@
       "04_FPGA_Banks2_3_SDRAM"
     ],
     [
-      "b93efa78-c170-4cb6-81ef-072d5a5e973b",
-      "05_FPGA_Bank5_SPI"
+      "43ca8a3e-d0ec-4d1b-80e5-099bf8df79e9",
+      "07_FPGA_Bank10_SDRAMB"
     ],
     [
-      "43ca8a3e-d0ec-4d1b-80e5-099bf8df79e9",
-      "07_IO_DF9_connectors"
+      "b93efa78-c170-4cb6-81ef-072d5a5e973b",
+      "05_FPGA_Bank5_SPI"
     ],
     [
       "7c344aa7-1e72-4ff4-b2c4-18ee529166e7",
       "08_Power_Rails"
     ],
     [
-      "83e10cad-fc5e-4e2d-9026-33d9d59820c9",
-      "DF9_CFG-SPW"
-    ],
-    [
       "46128734-d9a8-42cc-a4e9-c93aefc4b201",
       "99_FPGA_Unused_Banks_Reference"
+    ],
+    [
+      "83e10cad-fc5e-4e2d-9026-33d9d59820c9",
+      "Connectors_DF9_PICO"
     ],
     [
       "ae14ff2f-b8e3-4dd1-9329-e73906805e39",

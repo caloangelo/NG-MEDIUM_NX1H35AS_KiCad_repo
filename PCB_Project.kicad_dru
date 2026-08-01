@@ -4,7 +4,7 @@
 (rule "U11 BGA signal fanout"
     (condition "A.intersectsCourtyard('U11') && A.NetName != 'GND' && A.NetName != 'VDD3V3'")
     (constraint track_width (min 0.09mm) (opt 0.15mm) (max 0.15mm))
-    (constraint clearance (min 0.010mm)))
+    (constraint clearance (min 0.10mm)))
 
 (rule "U11 BGA power fanout"
     (condition "A.intersectsCourtyard('U11') && (A.NetName == 'GND' || A.NetName == 'VDD3V3')")
