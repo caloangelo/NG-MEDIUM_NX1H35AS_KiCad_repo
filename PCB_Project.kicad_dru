@@ -1,19 +1,18 @@
 (version 1)
-(version 1)
 
 (rule "U11 BGA signal fanout"
     (condition "A.intersectsCourtyard('U11') && A.NetName != 'GND' && A.NetName != 'VDD3V3'")
-    (constraint track_width (min 0.09mm) (opt 0.15mm) (max 0.15mm))
+    (constraint track_width (min 0.09mm) (opt 0.10mm) (max 0.15mm))
     (constraint clearance (min 0.10mm)))
 
 (rule "U11 BGA power fanout"
     (condition "A.intersectsCourtyard('U11') && (A.NetName == 'GND' || A.NetName == 'VDD3V3')")
     (constraint track_width (min 0.15mm) (opt 0.30mm) (max 0.30mm))
-    (constraint clearance (min 0.09mm)))
+    (constraint clearance (min 0.10mm)))
 
 (rule "U11 BGA signal vias"
     (condition "A.Type == 'Via' && A.intersectsCourtyard('U11') && A.NetName != 'GND' && A.NetName != 'VDD3V3'")
-    (constraint via_diameter (min 0.45mm) (opt 0.45mm) (max 0.45mm))
+    (constraint via_diameter (min 0.40mm) (opt 0.40mm) (max 0.40mm))
     (constraint hole_size (min 0.20mm) (opt 0.20mm) (max 0.20mm)))
 
 (rule "U11 BGA power vias"
