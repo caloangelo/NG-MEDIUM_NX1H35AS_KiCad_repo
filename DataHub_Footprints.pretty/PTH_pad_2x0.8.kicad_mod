@@ -1,0 +1,78 @@
+(footprint "PTH_pad_2x0.8"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8c228333-8b29-4180-a093-d496caaacc2b")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TestPoint"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0b842c51-1088-4bbc-b671-2fcbf452d64f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b16214c4-6359-4b36-a92a-7a69ef288ed7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6649c177-9db0-4364-bef1-32f529cb1d0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 1.3 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b9d228dc-ccba-4ce1-8f12-bfe627805e0c")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 0.8)
+		(property pad_prop_testpoint)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "92875d8a-0294-45cf-9a8e-6342d9771ece")
+	)
+	(embedded_fonts no)
+)

@@ -1520,131 +1520,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "DataHub_PWR_symbols:VDDIO_SERVICE"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at -16.002 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDDIO_SERVICE"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDDIO_SERVICE\""
-				(at -2.032 9.398 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDDIO_SERVICE_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDDIO_SERVICE_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "DataHub_PWR_symbols:VDDS_12"
 			(power)
 			(pin_numbers
@@ -1914,131 +1789,6 @@
 				(pin passive line
 					(at 0 -2.54 90)
 					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Value" "R_Small"
-				(at 1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_Small_0_1"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
 					(name "~"
 						(effects
 							(font
@@ -2951,16 +2701,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 154.94) (xy 121.92 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015fa421-c4b7-4717-a1a3-0673205179cc")
-	)
-	(wire
-		(pts
 			(xy 132.08 27.94) (xy 132.08 26.67)
 		)
 		(stroke
@@ -3481,16 +3221,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 63.5) (xy 210.82 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "261b1ed4-8084-4d7e-8f17-4c286b8a4c2c")
-	)
-	(wire
-		(pts
 			(xy 43.18 58.42) (xy 43.18 57.15)
 		)
 		(stroke
@@ -3741,7 +3471,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 62.23) (xy 189.23 63.5)
+			(xy 194.31 62.23) (xy 194.31 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4871,16 +4601,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 153.67) (xy 121.92 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96b9a4e3-de76-482c-b7a4-25b4764f5fda")
-	)
-	(wire
-		(pts
 			(xy 36.83 106.68) (xy 53.34 106.68)
 		)
 		(stroke
@@ -4938,16 +4658,6 @@
 			(type default)
 		)
 		(uuid "9a228946-0572-4485-a336-f4a83c878096")
-	)
-	(wire
-		(pts
-			(xy 107.95 154.94) (xy 113.03 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a67220c-b1c5-4195-96a6-c7c72c22c9fa")
 	)
 	(wire
 		(pts
@@ -5181,7 +4891,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 63.5) (xy 194.31 63.5)
+			(xy 194.31 63.5) (xy 210.82 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5568,16 +5278,6 @@
 			(type default)
 		)
 		(uuid "d07a6ef0-fd6f-4a82-bbed-69ca96316f9b")
-	)
-	(wire
-		(pts
-			(xy 107.95 153.67) (xy 107.95 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0ffb488-f40c-49ac-abd0-33b74e3ac669")
 	)
 	(wire
 		(pts
@@ -6656,75 +6356,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 115.57 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "358ad034-3c71-4238-9cc2-a10c8855483e")
-		(property "Reference" "R30"
-			(at 114.3 157.734 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0 Ohm"
-			(at 112.776 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 115.57 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 115.57 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "97480d76-4e4d-4ce6-a201-6a607453394c")
-		)
-		(pin "1"
-			(uuid "8abcc0bb-b2aa-4769-98d5-ef81eb25baaf")
-		)
-		(instances
-			(project "PCB_Project"
-				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/7c344aa7-1e72-4ff4-b2c4-18ee529166e7"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_Small_1")
 		(lib_id "Device:C_Small")
 		(at 62.23 133.35 0)
@@ -7205,72 +6836,6 @@
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/7c344aa7-1e72-4ff4-b2c4-18ee529166e7"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DataHub_PWR_symbols:VDD3V3")
-		(at 107.95 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42bf8df0-43a4-411d-9c28-3657f1d62d8d")
-		(property "Reference" "#PWR073"
-			(at 91.948 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDD3V3"
-			(at 107.95 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 107.95 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 107.95 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD3V3\""
-			(at 105.918 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3def33bc-7273-4ed1-bee0-176facf0cef1")
-		)
-		(instances
-			(project ""
-				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/7c344aa7-1e72-4ff4-b2c4-18ee529166e7"
-					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -10518,7 +10083,7 @@
 	)
 	(symbol
 		(lib_id "DataHub_PWR_symbols:VDD2V5")
-		(at 189.23 62.23 0)
+		(at 194.31 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10527,7 +10092,7 @@
 		(fields_autoplaced yes)
 		(uuid "add293ba-4e0d-4c82-a5e5-ae3390ffa15a")
 		(property "Reference" "#PWR091"
-			(at 173.228 57.15 0)
+			(at 178.308 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10536,7 +10101,7 @@
 			)
 		)
 		(property "Value" "VDD2V5"
-			(at 189.23 57.15 0)
+			(at 194.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10544,7 +10109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 62.23 0)
+			(at 194.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10553,7 +10118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 62.23 0)
+			(at 194.31 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,7 +10127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD2V5\""
-			(at 187.198 52.832 0)
+			(at 192.278 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11275,72 +10840,6 @@
 		)
 	)
 	(symbol
-		(lib_id "DataHub_PWR_symbols:VDDIO_SERVICE")
-		(at 121.92 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb326136-a655-4f58-99a7-d1e4be292711")
-		(property "Reference" "#PWR083"
-			(at 105.918 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDIO_SERVICE"
-			(at 121.92 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDDIO_SERVICE\""
-			(at 119.888 144.272 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6705f9b7-3c06-4015-a8e7-85c17aeb6e19")
-		)
-		(instances
-			(project ""
-				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/7c344aa7-1e72-4ff4-b2c4-18ee529166e7"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "C_Small_1")
 		(lib_id "Device:C_Small")
 		(at 55.88 154.94 0)
@@ -11541,75 +11040,6 @@
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/7c344aa7-1e72-4ff4-b2c4-18ee529166e7"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 196.85 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2343997-bb48-4d10-b383-bcaa5ab3f2d1")
-		(property "Reference" "R26"
-			(at 195.58 66.294 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0 Ohm"
-			(at 194.056 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 196.85 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4277da0d-66e7-41ff-97b7-b0575ac8c5ad")
-		)
-		(pin "1"
-			(uuid "9ea07e36-26fb-4769-aa27-ae51de613f22")
-		)
-		(instances
-			(project "PCB_Project"
-				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/7c344aa7-1e72-4ff4-b2c4-18ee529166e7"
-					(reference "R26")
 					(unit 1)
 				)
 			)
