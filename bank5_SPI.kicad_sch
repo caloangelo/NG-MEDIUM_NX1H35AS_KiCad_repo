@@ -9,23 +9,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "U1"
+				(at -10.16 60.96 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right bottom)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "NX1H35 PBGA625"
+				(at -5.08 60.96 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "DataHub_NG_Medium:NX1H35S_CLGA625"
 				(at 0 0 0)
 				(effects
 					(font
@@ -49,6 +51,26 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "MFG" "Nanoxplore"
+				(at -25.908 -48.514 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "MFG-P/N" "NX1H35AS-FG625MP"
+				(at -25.908 -48.514 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -10923,7 +10945,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin input line
 					(at -25.4 -48.26 0)
 					(length 5.08)
 					(name "VDDSENSE"
@@ -17040,7 +17062,7 @@
 		(dnp no)
 		(uuid "d7ebd942-3e08-4760-aff1-94a81fe3ab40")
 		(property "Reference" "U1"
-			(at 75.946 34.0868 0)
+			(at 76.2 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17049,7 +17071,7 @@
 			)
 		)
 		(property "Value" "NX1H35 PBGA625"
-			(at 81.026 34.0868 0)
+			(at 81.28 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18980,7 +19002,11 @@
 			(uuid "ea09694c-5e80-4328-8164-a9951b9cafcf")
 		)
 		(instances
-			(project "PCB_Project"
+			(project ""
+				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/77861c37-88e9-4408-9723-ec14cfd3d63b"
+					(reference "U1")
+					(unit 4)
+				)
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/b93efa78-c170-4cb6-81ef-072d5a5e973b"
 					(reference "U1")
 					(unit 4)
