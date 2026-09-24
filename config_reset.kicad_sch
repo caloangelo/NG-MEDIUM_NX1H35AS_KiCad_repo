@@ -25655,6 +25655,10 @@
 		(uuid "632aed41-bf49-4dfc-ad1b-392351803792")
 	)
 	(no_connect
+		(at 146.05 179.07)
+		(uuid "6507c3c7-a566-4e9d-8530-fa39071d32e3")
+	)
+	(no_connect
 		(at 99.06 81.28)
 		(uuid "650c1225-33eb-4f92-99e9-388be1d7ce88")
 	)
@@ -25943,16 +25947,6 @@
 			(type default)
 		)
 		(uuid "10c9c657-1d2c-47c1-b90d-0bb4fdbe2f01")
-	)
-	(wire
-		(pts
-			(xy 156.21 179.07) (xy 156.21 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1373665c-44b7-4341-9fd2-38253ac2bcfe")
 	)
 	(wire
 		(pts
@@ -26496,16 +26490,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 179.07) (xy 146.05 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6197534a-0b32-4615-a7c2-857bbf501e35")
-	)
-	(wire
-		(pts
 			(xy 265.43 31.75) (xy 265.43 34.29)
 		)
 		(stroke
@@ -26703,16 +26687,6 @@
 			(type default)
 		)
 		(uuid "7ac90618-3b9f-4486-baf0-193ae7fff57d")
-	)
-	(wire
-		(pts
-			(xy 153.67 179.07) (xy 156.21 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b33be59-7110-492d-b657-7024bb50ff6a")
 	)
 	(wire
 		(pts
@@ -28240,7 +28214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02232c24-2ee7-4cab-b2c5-c77fdb0a3d81")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 146.304 91.186 0)
 			(effects
 				(font
@@ -28301,7 +28275,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -28317,7 +28291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09b94999-3609-4acc-a57b-2e45d869ce9a")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 127.254 98.298 90)
 			(effects
 				(font
@@ -28371,7 +28345,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -28386,7 +28360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bcd3a60-8c68-413b-8396-25118b51ca9e")
-		(property "Reference" "R27"
+		(property "Reference" "R1"
 			(at 24.892 78.486 90)
 			(effects
 				(font
@@ -28440,7 +28414,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R27")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -28456,7 +28430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a8529fd-9865-4200-bf95-8d05d82ca61a")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR026"
 			(at 149.86 104.14 0)
 			(effects
 				(font
@@ -28506,7 +28480,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR068")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -28522,7 +28496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ea4e573-5965-4482-a294-2d5039e84c43")
-		(property "Reference" "R9"
+		(property "Reference" "R6"
 			(at 127.254 86.868 90)
 			(effects
 				(font
@@ -28576,7 +28550,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R9")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -28593,7 +28567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "252b9375-df52-4564-897a-a21983e94879")
-		(property "Reference" "D1"
+		(property "Reference" "D6"
 			(at 146.304 110.236 0)
 			(effects
 				(font
@@ -28654,7 +28628,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -28669,7 +28643,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b74c885-fd55-4a3a-b65a-c0671c2aa7d0")
-		(property "Reference" "R33"
+		(property "Reference" "R3"
 			(at 46.736 90.678 90)
 			(effects
 				(font
@@ -28723,7 +28697,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R33")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -28738,7 +28712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32cbce56-3ce4-4689-9fc0-acda0ffe9bc1")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR013"
 			(at 13.208 54.61 0)
 			(effects
 				(font
@@ -28788,7 +28762,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR050")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -28804,7 +28778,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33468069-ede3-43ac-8e0f-46733a1a26b3")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR025"
 			(at 135.89 191.77 0)
 			(effects
 				(font
@@ -28854,7 +28828,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR0110")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -28869,7 +28843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ff54da8-5d69-47d5-bdd5-3e873ee5cae8")
-		(property "Reference" "R31"
+		(property "Reference" "R2"
 			(at 27.432 67.056 90)
 			(effects
 				(font
@@ -28923,7 +28897,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R31")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -28939,7 +28913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41a7e85b-3161-439d-9cf2-296c6eb6475a")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR028"
 			(at 140.208 167.64 0)
 			(effects
 				(font
@@ -28989,7 +28963,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR0111")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -29005,7 +28979,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a6925c0-8fc8-44af-9a02-da5b16cd3469")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR018"
 			(at 36.068 157.48 0)
 			(effects
 				(font
@@ -29055,7 +29029,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR070")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -29071,7 +29045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56869284-1f2e-4bfc-a8c2-a49f2a567de2")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 107.95 43.18 0)
 			(effects
 				(font
@@ -29121,7 +29095,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -31100,7 +31074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63889229-9164-40d8-849e-c27bf5e1a076")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR014"
 			(at 29.21 86.36 0)
 			(effects
 				(font
@@ -31150,7 +31124,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR037")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -33129,7 +33103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6aa21c55-c0d5-4420-993e-7f3289a88298")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR022"
 			(at 102.87 153.67 0)
 			(effects
 				(font
@@ -33179,7 +33153,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR07")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -33194,7 +33168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70b34396-c8e1-40b8-94e8-c195b41ab2cc")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR015"
 			(at 23.368 82.55 0)
 			(effects
 				(font
@@ -33244,7 +33218,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR080")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -33260,7 +33234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71715f0a-9ae9-44d5-983d-09382249031e")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR032"
 			(at 181.61 149.86 0)
 			(effects
 				(font
@@ -33310,7 +33284,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -33326,7 +33300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71d7558d-2a09-40ce-8c8b-b0feed54150f")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR027"
 			(at 149.86 119.38 0)
 			(effects
 				(font
@@ -33376,7 +33350,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR067")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -33392,7 +33366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77e78041-edbb-4d05-858a-318d55f6b237")
-		(property "Reference" "R32"
+		(property "Reference" "R4"
 			(at 50.292 167.894 0)
 			(effects
 				(font
@@ -33446,7 +33420,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R32")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -33461,7 +33435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f5d2330-4dc7-43f7-97af-9c54e1db7595")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR031"
 			(at 180.34 58.42 0)
 			(effects
 				(font
@@ -33511,7 +33485,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR023")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -33527,7 +33501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8123e73b-34c4-4cbf-860d-968147515e1e")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR019"
 			(at 53.848 157.48 0)
 			(effects
 				(font
@@ -33577,76 +33551,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 151.13 179.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8ab1b871-2b28-4913-8928-94f42f0841d9")
-		(property "Reference" "R7"
-			(at 154.686 180.848 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 151.13 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 151.13 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 151.13 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48e344ab-5b3b-4532-a4e2-1317c989154c")
-		)
-		(pin "2"
-			(uuid "db28717d-8bd6-42ce-a674-9487ad35c704")
-		)
-		(instances
-			(project "PCB_Project"
-				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R7")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -33663,7 +33568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91901790-0374-4499-988d-4af39fcc9532")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR020"
 			(at 69.85 195.58 0)
 			(effects
 				(font
@@ -33713,7 +33618,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR046")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -33729,7 +33634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9533262d-59d8-4d7e-8427-aee71eb038e5")
-		(property "Reference" "R1"
+		(property "Reference" "R11"
 			(at 127.254 113.538 90)
 			(effects
 				(font
@@ -33783,7 +33688,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R1")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -33799,7 +33704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "979612b8-5444-4582-b553-1024114ef969")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR016"
 			(at 28.448 20.32 0)
 			(effects
 				(font
@@ -33849,7 +33754,7 @@
 		(instances
 			(project ""
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR072")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -33866,7 +33771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a07e7f26-72c6-4d13-b70a-9609830b46c9")
-		(property "Reference" "D7"
+		(property "Reference" "D2"
 			(at 146.304 87.376 0)
 			(effects
 				(font
@@ -33927,7 +33832,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "D7")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -33943,7 +33848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0f34a28-9031-4822-8314-88f571ca4d3e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR023"
 			(at 102.87 172.72 0)
 			(effects
 				(font
@@ -33993,7 +33898,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR049")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -34009,7 +33914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a553b582-6bce-44f2-83fb-b544eef783f5")
-		(property "Reference" "D3"
+		(property "Reference" "D5"
 			(at 146.05 106.426 0)
 			(effects
 				(font
@@ -34070,7 +33975,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "D3")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -34085,7 +33990,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6287ef8-b1c7-4884-9868-b6b21b668988")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 71.9933 168.91 0)
 			(effects
 				(font
@@ -34157,7 +34062,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -34172,7 +34077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae561b39-7c94-438e-a673-b6758a6e9e74")
-		(property "Reference" "R19"
+		(property "Reference" "R5"
 			(at 60.198 169.164 0)
 			(effects
 				(font
@@ -34226,7 +34131,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R19")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -34242,7 +34147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aff547ec-a969-4820-ac64-764d0d09a254")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR033"
 			(at 249.428 24.13 0)
 			(effects
 				(font
@@ -34292,7 +34197,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR024")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -34308,7 +34213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bab886e1-a969-4409-ae7d-c8d95c92df70")
-		(property "Reference" "R14"
+		(property "Reference" "R7"
 			(at 127.254 90.678 90)
 			(effects
 				(font
@@ -34362,7 +34267,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R14")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -34456,7 +34361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4d5df62-ccb6-4322-80f7-4f3ddedd2dfb")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR021"
 			(at 102.87 64.77 0)
 			(effects
 				(font
@@ -34506,7 +34411,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR026")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -34522,7 +34427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc4fcb21-a0ba-4852-b02e-8584608b108f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR017"
 			(at 44.45 153.67 0)
 			(effects
 				(font
@@ -34572,7 +34477,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR06")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -34588,7 +34493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cec2e1ee-d728-42d0-9bab-4a73f9c4f30d")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 127.254 109.728 90)
 			(effects
 				(font
@@ -34642,7 +34547,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -34659,7 +34564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfcf211b-e43f-4f6c-a461-ffed673f983c")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR034"
 			(at 265.43 149.86 0)
 			(effects
 				(font
@@ -34709,7 +34614,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR020")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -34724,7 +34629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d860850c-4376-47b1-96a8-5236de7364ea")
-		(property "Reference" "C110"
+		(property "Reference" "C14"
 			(at 161.2964 181.61 90)
 			(effects
 				(font
@@ -34776,7 +34681,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "C110")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -34793,7 +34698,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da7632e8-6035-4c6d-90d2-2ad759ea97b0")
-		(property "Reference" "D6"
+		(property "Reference" "D1"
 			(at 146.304 83.566 0)
 			(effects
 				(font
@@ -34854,7 +34759,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "D6")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -34870,7 +34775,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dd08b6cc-0305-48ea-8e3b-5e0abe339958")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 127.254 94.488 90)
 			(effects
 				(font
@@ -34924,7 +34829,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -34940,7 +34845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df930e0d-4a5f-4969-af04-8a2b24ac35e6")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR030"
 			(at 164.338 24.13 0)
 			(effects
 				(font
@@ -34990,7 +34895,7 @@
 		(instances
 			(project ""
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR051")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -35006,7 +34911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecc92b9a-3c4e-47e9-9048-b3027457ace9")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR035"
 			(at 257.048 36.83 0)
 			(effects
 				(font
@@ -35056,7 +34961,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR047")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -35071,7 +34976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef6e76ac-3c62-48a3-9e63-5ca7552f0013")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 92.71 159.004 90)
 			(effects
 				(font
@@ -35125,7 +35030,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -35141,7 +35046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f28ecfe8-b4d8-4a8a-87ca-677eff5211ea")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR029"
 			(at 166.37 191.77 0)
 			(effects
 				(font
@@ -35191,7 +35096,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "#PWR0141")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -35208,7 +35113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f863b5dc-68aa-436a-8be0-fe2a37a1fc8a")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 135.89 167.132 0)
 			(effects
 				(font
@@ -35266,7 +35171,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)

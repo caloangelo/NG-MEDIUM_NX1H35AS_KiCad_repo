@@ -26974,10 +26974,6 @@
 					(reference "U1")
 					(unit 5)
 				)
-				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/77861c37-88e9-4408-9723-ec14cfd3d63b"
-					(reference "U1")
-					(unit 5)
-				)
 			)
 		)
 	)
@@ -26991,7 +26987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "253f7b62-5eaa-4094-90f9-ba0977e7a1d3")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR037"
 			(at 60.96 134.62 0)
 			(effects
 				(font
@@ -27041,7 +27037,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/2a507cdc-d739-4bae-96c6-edd8564de424"
-					(reference "#PWR012")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -27057,7 +27053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "520dac6a-3626-4c11-b93b-938901030914")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR036"
 			(at 44.958 46.99 0)
 			(effects
 				(font
@@ -27107,7 +27103,7 @@
 		(instances
 			(project ""
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/2a507cdc-d739-4bae-96c6-edd8564de424"
-					(reference "#PWR048")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -27124,7 +27120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76e179f5-d448-4495-a861-8e0b513db480")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR039"
 			(at 119.38 134.62 0)
 			(effects
 				(font
@@ -27174,7 +27170,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/2a507cdc-d739-4bae-96c6-edd8564de424"
-					(reference "#PWR013")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -27191,7 +27187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8076dca3-8cd8-4abb-86ac-fb3f03a5d3ec")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR038"
 			(at 119.38 66.04 0)
 			(effects
 				(font
@@ -27241,7 +27237,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/2a507cdc-d739-4bae-96c6-edd8564de424"
-					(reference "#PWR011")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -27256,7 +27252,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "997eb776-d510-4c23-95f9-d699646cc4aa")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR040"
 			(at 177.8 58.42 0)
 			(effects
 				(font
@@ -27306,7 +27302,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/2a507cdc-d739-4bae-96c6-edd8564de424"
-					(reference "#PWR032")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -27322,7 +27318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2d9f9cb-2306-439f-9b13-300b00717b65")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR042"
 			(at 236.22 58.42 0)
 			(effects
 				(font
@@ -27372,7 +27368,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/2a507cdc-d739-4bae-96c6-edd8564de424"
-					(reference "#PWR010")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -27388,7 +27384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef83ca06-66de-4ddf-ae0c-aebb845cdf5d")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR041"
 			(at 177.8 147.32 0)
 			(effects
 				(font
@@ -27438,7 +27434,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/2a507cdc-d739-4bae-96c6-edd8564de424"
-					(reference "#PWR021")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -29400,10 +29396,6 @@
 					(reference "U1")
 					(unit 1)
 				)
-				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/77861c37-88e9-4408-9723-ec14cfd3d63b"
-					(reference "U1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -29418,7 +29410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd89e201-83be-4385-b458-ef29f359cf05")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR043"
 			(at 236.22 147.32 0)
 			(effects
 				(font
@@ -29468,7 +29460,7 @@
 		(instances
 			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/2a507cdc-d739-4bae-96c6-edd8564de424"
-					(reference "#PWR019")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)

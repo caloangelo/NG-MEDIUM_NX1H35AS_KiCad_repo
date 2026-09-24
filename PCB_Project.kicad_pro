@@ -39,7 +39,7 @@
         "pads": {
           "drill": 0.0,
           "height": 1.5,
-          "width": 1.5
+          "width": 0.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -125,7 +125,7 @@
         "max_error": 0.005,
         "min_clearance": 0.1,
         "min_connection": 0.09,
-        "min_copper_edge_clearance": 0.2,
+        "min_copper_edge_clearance": 0.0,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
@@ -649,8 +649,8 @@
       },
       {
         "clearance": 0.15,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.12,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.15,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SPW_DIFF",
@@ -665,7 +665,17 @@
     "meta": {
       "version": 4
     },
-    "net_colors": null,
+    "net_colors": {
+      "+1V7_IN": "rgb(255, 105, 0)",
+      "+3V3_IN": "rgb(255, 147, 0)",
+      "+3V6_IN": "rgb(255, 0, 120)",
+      "+5V_IN": "rgb(235, 0, 255)",
+      "VDD1V2": "rgb(0, 222, 255)",
+      "VDD2V5": "rgb(38, 255, 0)",
+      "VDD2V5A": "rgb(51, 81, 171)",
+      "VDD3V3": "rgb(0, 185, 141)",
+      "VDDIO_SERVICE": "rgb(247, 255, 0)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
