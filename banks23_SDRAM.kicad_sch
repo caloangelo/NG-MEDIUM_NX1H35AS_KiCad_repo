@@ -14073,6 +14073,51 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start -144.78 45.72)
+		(end -10.16 233.68)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e7c0e8d-ea8a-4e83-aefd-6a6ecd2c584f)
+	)
+	(text "Bank 10: connected to the secondary BGA SDRAM interface."
+		(exclude_from_sim no)
+		(at -83.566 75.692 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+			)
+		)
+		(uuid "145496e2-2c5a-40d2-9693-4f16742c0dd5")
+	)
+	(text "FPGA Banks 9 and 10"
+		(exclude_from_sim no)
+		(at -105.156 55.118 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "a0fa3d5c-2b4e-4733-bbde-26e0c700be4b")
+	)
+	(text "Bank 9: unused"
+		(exclude_from_sim no)
+		(at -83.566 71.882 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(color 72 0 0 1)
+			)
+		)
+		(uuid "f3321e9c-470d-4672-9614-b55fe683d2a5")
+	)
 	(junction
 		(at 243.84 144.78)
 		(diameter 0)
