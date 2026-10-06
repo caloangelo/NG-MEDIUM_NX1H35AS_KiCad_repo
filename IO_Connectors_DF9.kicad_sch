@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "5c02e1cb-3d42-435f-9e6e-648e204863b6")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Brave625:root_0_BRAVE625A_Brave625.SchLib"
 			(exclude_from_sim no)
