@@ -1272,11 +1272,11 @@
     ],
     [
       "e4b4090a-9491-4976-8b45-759656425e5b",
-      "FPGA_Banks11_12_CFG"
+      "FPGA_Banks11_12_CFG_Service"
     ],
     [
       "2a507cdc-d739-4bae-96c6-edd8564de424",
-      "FPGA_Bank0"
+      "FPGA_Bank0_1"
     ],
     [
       "3e72565b-8456-42ee-89da-a690bc2340a4",
@@ -1284,23 +1284,23 @@
     ],
     [
       "43ca8a3e-d0ec-4d1b-80e5-099bf8df79e9",
-      "FPGA_Bank10_SDRAMB"
+      "FPGA_Banks9_10_SDRAM_bga"
     ],
     [
       "b93efa78-c170-4cb6-81ef-072d5a5e973b",
-      "FPGA_Bank5_SPI"
+      "FPGA_Banks4_5_SPI"
     ],
     [
       "7c344aa7-1e72-4ff4-b2c4-18ee529166e7",
-      "Rails_Decoupling"
+      "Decoupling_Network"
     ],
     [
       "46128734-d9a8-42cc-a4e9-c93aefc4b201",
-      "Power_Tree_LDOs"
+      "Power_Tree_TP"
     ],
     [
       "83e10cad-fc5e-4e2d-9026-33d9d59820c9",
-      "Connectors_DF9_PICO"
+      "Connectors_DF9_PicoB"
     ],
     [
       "ae14ff2f-b8e3-4dd1-9329-e73906805e39",

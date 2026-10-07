@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "5c02e1cb-3d42-435f-9e6e-648e204863b6")
 	(paper "A3")
+	(title_block
+		(title "Secondary SDRAM Interface - FPGA Banks 9 and 10")
+		(date "2026-10-06")
+		(rev "1.0")
+		(company "KTH Royal Institute of Technology")
+	)
 	(lib_symbols
 		(symbol "Brave625:root_0_BRAVE625A_Brave625.SchLib"
 			(exclude_from_sim no)
@@ -16314,7 +16320,7 @@
 			(uuid "d93b2b46-56ad-4ce0-a1b6-e1278c91ff17")
 		)
 		(instances
-			(project ""
+			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/43ca8a3e-d0ec-4d1b-80e5-099bf8df79e9"
 					(reference "U4")
 					(unit 1)

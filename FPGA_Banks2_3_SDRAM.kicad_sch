@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "137f19e9-7d34-46d2-b269-2b612a31c709")
 	(paper "A3")
+	(title_block
+		(title "Primary SDRAM Interface - FPGA Banks 2 and 3")
+		(date "2026-10-06")
+		(rev "1.0")
+		(company "KTH Royal Institute of Technology")
+	)
 	(lib_symbols
 		(symbol "AS4C8M32S:AS4C8M32S-6TIN"
 			(pin_names
@@ -17908,7 +17914,7 @@
 			(uuid "cf8b27e8-cd5c-42c5-9659-116531c88d93")
 		)
 		(instances
-			(project ""
+			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/3e72565b-8456-42ee-89da-a690bc2340a4"
 					(reference "#PWR047")
 					(unit 1)
@@ -20531,7 +20537,7 @@
 			(uuid "8509cb99-68f2-4abd-bf8f-5c56d9a267e3")
 		)
 		(instances
-			(project ""
+			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/3e72565b-8456-42ee-89da-a690bc2340a4"
 					(reference "#PWR045")
 					(unit 1)

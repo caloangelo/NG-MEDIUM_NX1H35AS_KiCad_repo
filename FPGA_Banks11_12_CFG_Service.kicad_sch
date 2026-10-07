@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "59797b2b-d301-4f5a-8440-264091e2a04c")
 	(paper "A3")
+	(title_block
+		(title "FPGA Configuration, Service and Banks 11-12")
+		(date "2026-10-06")
+		(rev "1.0")
+		(company "KTH Royal Institute of Technology")
+	)
 	(lib_symbols
 		(symbol "Brave625:root_0_BRAVE625A_Brave625.SchLib"
 			(exclude_from_sim no)
@@ -34252,7 +34258,7 @@
 			(uuid "6de9adf8-dde4-454e-8768-291e23450fe5")
 		)
 		(instances
-			(project ""
+			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
 					(reference "#PWR016")
 					(unit 1)
@@ -35596,7 +35602,7 @@
 			(uuid "20f979cf-f489-478d-b8e5-05161ac97644")
 		)
 		(instances
-			(project ""
+			(project "PCB_Project"
 				(path "/ae14ff2f-b8e3-4dd1-9329-e73906805e39/e4b4090a-9491-4976-8b45-759656425e5b"
 					(reference "#PWR030")
 					(unit 1)
